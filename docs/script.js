@@ -10,16 +10,16 @@ var word1;
 var word2;
 
 var allWords = [
-    {first: "jablko", second: "apple"},
-    {first: "abc", second: "cba"},
-    {first: "slnko", second: "sun"},
-    {first: "strom", second: "tree"},
-    {first: "dazd", second: "rain"},
-    {first: "dom", second: "house"},
-    {first: "kvet", second: "flower"},
-    {first: "stolicka", second: "chair"},
-    {first: "dievca", second: "girl"},
-    {first: "tricko", second: "T-shirt"}
+    {first: "Ahoj", second: "Hi"},
+    {first: "Děkuji", second: "Thank you"},
+    {first: "Prosím", second: "Please"},
+    {first: "Promiňte", second: "Sorry"},
+    {first: "Ano", second: "Yes"},
+    {first: "Ne", second:"No"},
+    {first: "Žena", second: "Woman"},
+    {first: "Muž", second: "Man"},
+    {first: "Kluk", second:"Boy"},
+    {first: "Holka", second: "Girl"},
 ];
 
 for (var index = 0; index < 10; index++) {
@@ -27,7 +27,7 @@ for (var index = 0; index < 10; index++) {
     wordsRemaining = wordsRemaining + 1;
     var position;
     while (true) {
-        position = Math.floor(Math.random() * 20);
+        position = Math.floor(Math.random() * 10);
         if (words[position].textContent === "xxx") {
             words[position].textContent = w.first;
             words[position].classList.add("c" + index);
@@ -35,7 +35,7 @@ for (var index = 0; index < 10; index++) {
         }
     }
     while (true) {
-        position = Math.floor(Math.random() * 20);
+        position = Math.floor(Math.random() * 10);
         if (words[position].textContent === "xxx") {
             words[position].textContent = w.second;
             words[position].classList.add("c" + index);
