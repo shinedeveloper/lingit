@@ -10,16 +10,16 @@ var word1;
 var word2;
 
 var allWords = [
-    {first: "Dům   ", second: "Una casa"},
-    {first: "Pes   ", second: "Un perro"},
-    {first: "Kočka ", second: "Un gato"},
-    {first: "Auto  ", second: "Un coche"},
-    {first: "Stůl  ", second: "Una mesa"},
-    {first: "Židle ", second: "Una silla"},
-    {first: "Voda  ", second: "Un agua"},
-    {first: "Čaj   ", second: "Un té"},
-    {first: "Káva  ", second: "Un café"},
-    {first: "Kolo  ", second: "Una bicicleta"}
+    {first: "Dům", second: "Una casa"},
+    {first: "Pes", second: "Un perro"},
+    {first: "Kočka", second: "Un gato"},
+    {first: "Auto", second: "Un coche"},
+    {first: "Stůl", second: "Una mesa"},
+    {first: "Židle", second: "Una silla"},
+    {first: "Voda", second: "Un agua"},
+    {first: "Čaj", second: "Un té"},
+    {first: "Káva", second: "Un café"},
+    {first: "Kolo", second: "Una bicicleta"}
 ];
 
 for (var index = 0; index < 10; index++) {
