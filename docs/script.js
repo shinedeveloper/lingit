@@ -19,7 +19,7 @@ var allWords = [
     {first: "Žena", second: "Woman"},
     {first: "Muž", second: "Man"},
     {first: "Kluk", second:"Boy"},
-    {first: "Holka", second: "Girl"},
+    {first: "Holka", second: "Girl"}
 ];
 
 for (var index = 0; index < 10; index++) {
@@ -27,7 +27,7 @@ for (var index = 0; index < 10; index++) {
     wordsRemaining = wordsRemaining + 1;
     var position;
     while (true) {
-        position = Math.floor(Math.random() * 10);
+        position = Math.floor(Math.random() * 20);
         if (words[position].textContent === "xxx") {
             words[position].textContent = w.first;
             words[position].classList.add("c" + index);
@@ -35,7 +35,7 @@ for (var index = 0; index < 10; index++) {
         }
     }
     while (true) {
-        position = Math.floor(Math.random() * 10);
+        position = Math.floor(Math.random() * 20);
         if (words[position].textContent === "xxx") {
             words[position].textContent = w.second;
             words[position].classList.add("c" + index);
