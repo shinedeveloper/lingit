@@ -11,14 +11,11 @@ var word2;
 
 var allWords = [
     {first: "Ahoj", second: "Hi"},
-    {first: "Dobré ráno", second: "Dobré ráno"},
     {first: "Děkuji", second: "Thank you"},
     {first: "Prosím", second: "Please"},
     {first: "Promiňte", second: "Sorry"},
-    {first: "Nerozumím", second: "I don´t understand"},
     {first: "Ano", second: "Yes"},
     {first: "Ne", second: "No"},
-    {first: "Jmenuji se", second: "My name is"},
     {first: "Žena", second: "Woman"},
     {first: "Muž", second: "Man"},
     {first: "Kluk", second: "Boy"},

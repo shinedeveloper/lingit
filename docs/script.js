@@ -15,11 +15,11 @@ var allWords = [
     {first: "Prosím", second: "Please"},
     {first: "Promiňte", second: "Sorry"},
     {first: "Ano", second: "Yes"},
-    {first: "Ne", second:"No"},
+    {first: "Ne", second: "No"},
     {first: "Žena", second: "Woman"},
     {first: "Muž", second: "Man"},
-    {first: "Kluk", second:"Boy"},
-    {first: "Holka", second: "Girl"}
+    {first: "Kluk", second: "Boy"},
+    {first: "Holka", second: "Girl"},
 ];
 
 for (var index = 0; index < 10; index++) {
