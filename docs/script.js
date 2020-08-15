@@ -28,18 +28,18 @@ if (pos1 !== -1) {
 var dictionary = {
     "eng": {
         "1": [
-            {first: "Ahoj", second: "Hi"},
-            {first: "Dobré ráno", second: "Good morning"},
-            {first: "Děkuji", second: "Thank you"},
-            {first: "Prosím", second: "Please"},
-            {first: "Promiňte", second: "Sorry"},
-            {first: "Nerozumím", second: "I don't understand"},
-            {first: "Ano", second: "Yes"},
-            {first: "Ne", second: "No"},
-            {first: "Žena", second: "Woman"},
-            {first: "Muž", second: "Man"},
-            {first: "Kluk", second: "Boy"},
-            {first: "Holka", second: "Girl"}
+            {first: "Ahoj", firstSound: "cs/1/Ahoj.mp3", second: "Hi", secondSound: "eng/1/Hi.mp3"},
+            {first: "Dobré ráno", firstSound: "cs/1/Dobre_rano.mp3", second: "Good morning", secondSound: "eng/1/Good_morning.mp3"},
+            {first: "Děkuji", firstSound: "cs/1/Dekuji.mp3", second: "Thank you", secondSound: "eng/1/Thank_you.mp3"},
+            {first: "Prosím", firstSound: "cs/1/Prosim.mp3", second: "Please", secondSound: "eng/1/Please.mp3"},
+            {first: "Promiňte", firstSound: "cs/1/Prominte.mp3", second: "Sorry", secondSound: "eng/1/Sorry.mp3"},
+            {first: "Nerozumím", firstSound: "cs/1/Nerozumim.mp3", second: "I don't understand", secondSound: "eng/1/I_dont_understand.mp3"},
+            {first: "Ano", firstSound: "cs/1/Ano.mp3", second: "Yes", secondSound: "eng/1/Yes.mp3"},
+            {first: "Ne", firstSound: "cs/1/Ne.mp3", second: "No", secondSound: "eng/1/No.mp3"},
+            {first: "Žena", firstSound: "cs/1/Zena.mp3", second: "Woman", secondSound: "eng/1/Woman.mp3"},
+            {first: "Muž", firstSound: "cs/1/Muz.mp3", second: "Man", secondSound: "eng/1/Man.mp3"},
+            {first: "Kluk", firstSound: "cs/1/Kluk.mp3", second: "Boy", secondSound: "eng/1/Boy.mp3"},
+            {first: "Holka", firstSound: "cs/1/Holka.mp3", second: "Girl", secondSound: "eng/1/Girl.mp3"},
         ],
         "2": [
             {first: "Dům", second: "House"},
@@ -72,18 +72,18 @@ var dictionary = {
     },
     "ger": {
         "1": [
-            {first: "Ahoj", second: "Hallo"},
-            {first: "Dobré ráno", second: "Guten Morgen"},
-            {first: "Děkuji", second: "Danke"},
-            {first: "Prosím", second: "Bitte"},
-            {first: "Promiňte", second: "Entschuldigung"},
-            {first: "Nerozumím", second: "Ich verstehe nicht"},
-            {first: "Ano", second: "Ja"},
-            {first: "Ne", second: "Nein"},
-            {first: "Žena", second: "die Frau"},
-            {first: "Muž", second: "der Mann"},
-            {first: "Kluk", second: "der Junge"},
-            {first: "Holka", second: "das Mädchen"}
+            {first: "Ahoj", firstSound: "cs/1/Ahoj.mp3", second: "Hallo", secondSound: "ger/1/Hallo.mp3"},
+            {first: "Dobré ráno", firstSound: "cs/1/Dobre_rano.mp3", second: "Guten Morgen", secondSound: "ger/1/Guten_Morgen.mp3"},
+            {first: "Děkuji", firstSound: "cs/1/Dekuji.mp3", second: "Danke", secondSound: "ger/1/Danke.mp3"},
+            {first: "Prosím", firstSound: "cs/1/Prosim.mp3", second: "Bitte", secondSound: "ger/1/Bitte.mp3"},
+            {first: "Promiňte", firstSound: "cs/1/Prominte.mp3", second: "Entschuldigung", secondSound: "ger/1/Entschuldigung.mp3"},
+            {first: "Nerozumím", firstSound: "cs/1/Nerozumim.mp3", second: "Ich verstehe nicht", secondSound: "ger/1/Ich_verstehe_nicht.mp3"},
+            {first: "Ano", firstSound: "cs/1/Ano.mp3", second: "Ja", secondSound: "ger/1/Ja.mp3"},
+            {first: "Ne", firstSound: "cs/1/Ne.mp3", second: "Nein", secondSound: "ger/1/Nein.mp3"},
+            {first: "Žena", firstSound: "cs/1/Zena.mp3", second: "die Frau", secondSound: "ger/1/die_Frau.mp3"},
+            {first: "Muž", firstSound: "cs/1/Muz.mp3", second: "der Mann", secondSound: "ger/1/der_Mann.mp3"},
+            {first: "Kluk", firstSound: "cs/1/Kluk.mp3", second: "der Junge", secondSound: "ger/1/der_Junge.mp3"},
+            {first: "Holka", firstSound: "cs/1/Holka.mp3", second: "das Mädchen", secondSound: "ger/1/das_Madchen.mp3"}
         ],
         "2": [
             {first: "Dům", second: "das Haus"},
@@ -116,18 +116,18 @@ var dictionary = {
     },
     "sp": {
         "1": [
-            {first: "Ahoj", second: "Hola"},
-            {first: "Dobré ráno", second: "Buenos días"},
-            {first: "Děkuji", second: "Gracias"},
-            {first: "Prosím", second: "Por favor"},
-            {first: "Promiňte", second: "Perdona"},
-            {first: "Nerozumím", second: "No entiendo"},
-            {first: "Ano", second: "Sí"},
-            {first: "Ne", second: "No"},
-            {first: "Žena", second: "Una mujer"},
-            {first: "Muž", second: "Un hombre"},
-            {first: "Kluk", second: "Un chico"},
-            {first: "Holka", second: "Una chica"}
+            {first: "Ahoj", firstSound: "cs/1/Ahoj.mp3", second: "Hola", secondSound: "sp/1/Hola.mp3"},
+            {first: "Dobré ráno", firstSound: "cs/1/Dobre_rano.mp3", second: "Buenos días", secondSound: "sp/1/Buenos_dias.mp3"},
+            {first: "Děkuji", firstSound: "cs/1/Dekuji.mp3", second: "Gracias", secondSound: "sp/1/Gracias.mp3"},
+            {first: "Prosím", firstSound: "cs/1/Prosim.mp3", second: "Por favor", secondSound: "sp/1/Por_favor.mp3"},
+            {first: "Promiňte", firstSound: "cs/1/Prominte.mp3", second: "Perdona", secondSound: "sp/1/Perdona.mp3"},
+            {first: "Nerozumím", firstSound: "cs/1/Nerozumim.mp3", second: "No entiendo", secondSound: "sp/1/No entiendo.mp3"},
+            {first: "Ano", firstSound: "cs/1/Ano.mp3", second: "Sí", secondSound: "sp/1/Si.mp3"},
+            {first: "Ne", firstSound: "cs/1/Ne.mp3", second: "No", secondSound: "sp/1/No.mp3"},
+            {first: "Žena", firstSound: "cs/1/Zena.mp3", second: "Una mujer", secondSound: "sp/1/Una mujer.mp3"},
+            {first: "Muž", firstSound: "cs/1/Muz.mp3", second: "Un hombre", secondSound: "sp/1/Un hombre.mp3"},
+            {first: "Kluk", firstSound: "cs/1/Kluk.mp3", second: "Un chico", secondSound: "sp/1/Un chico.mp3"},
+            {first: "Holka", firstSound: "cs/1/Holka.mp3", second: "Una chica", secondSound: "sp/1/Una chica.mp3"}
         ],
         "2": [
             {first: "Dům", second: "Una casa"},
@@ -160,18 +160,18 @@ var dictionary = {
     },
     "fran": {
         "1": [
-            {first: "Ahoj", second: "Salut"},
-            {first: "Dobré ráno", second: "Bonjour"},
-            {first: "Děkuji", second: "Merci"},
-            {first: "Prosím", second: "S'il vous plaît"},
-            {first: "Promiňte", second: "Désolé"},
-            {first: "Nerozumím", second: "Je ne comprends pas"},
-            {first: "Ano", second: "Oui"},
-            {first: "Ne", second: "Non"},
-            {first: "Žena", second: "Une femme"},
-            {first: "Muž", second: "Un homme"},
-            {first: "Kluk", second: "Un garçon"},
-            {first: "Holka", second: "Une fille"}
+            {first: "Ahoj", firstSound: "cs/1/Ahoj.mp3", second: "Salut", secondSound: "fran/1/Salut.mp3"},
+            {first: "Dobré ráno", firstSound: "cs/1/Dobre_rano.mp3", second: "Bonjour", secondSound: "fran/1/Bonjour.mp3"},
+            {first: "Děkuji", firstSound: "cs/1/Dekuji.mp3", second: "Merci", secondSound: "fran/1/Merci.mp3"},
+            {first: "Prosím", firstSound: "cs/1/Prosim.mp3", second: "S'il vous plaît", secondSound: "fran/1/S_il vous plait.mp3"},
+            {first: "Promiňte", firstSound: "cs/1/Prominte.mp3", second: "Désolé", secondSound: "fran/1/Desole.mp3"},
+            {first: "Nerozumím", firstSound: "cs/1/Nerozumim.mp3", second: "Je ne comprends pas", secondSound: "fran/1/Je ne comprends pas.mp3"},
+            {first: "Ano", firstSound: "cs/1/Ano.mp3", second: "Oui", secondSound: "fran/1/Oui.mp3"},
+            {first: "Ne", firstSound: "cs/1/Ne.mp3", second: "Non", secondSound: "fran/1/Non.mp3"},
+            {first: "Žena", firstSound: "cs/1/Zena.mp3", second: "Une femme", secondSound: "fran/1/Une femme.mp3"},
+            {first: "Muž", firstSound: "cs/1/Muz.mp3", second: "Un homme", secondSound: "fran/1/Un homme.mp3"},
+            {first: "Kluk", firstSound: "cs/1/Kluk.mp3", second: "Un garçon", secondSound: "fran/1/Un garcon.mp3"},
+            {first: "Holka", firstSound: "cs/1/Holka.mp3", second: "Une fille", secondSound: "fran/1/Une fille.mp3"}
         ],
         "2": [
             {first: "Dům", second: "Une maison"},
@@ -210,6 +210,8 @@ var dictionary = {
 var wordElements;
 wordElements = document.querySelectorAll(".word");
 
+var zvukovyElement = document.querySelector("#vyslovnost");
+
 var wordsRemaining = 0;
 
 var krok;
@@ -233,6 +235,9 @@ for (var index = 0; index < pocetSlovNaRozdani; index++) {
         position = Math.floor(Math.random() * wordElements.length);
         if (wordElements[position].textContent === "xxx") {
             wordElements[position].textContent = w.first;
+            if (w.firstSound !== undefined) {
+                wordElements[position].dataset.vyslovnost = w.firstSound;
+            }
             wordElements[position].classList.add("c" + index);
             break;
         }
@@ -241,6 +246,9 @@ for (var index = 0; index < pocetSlovNaRozdani; index++) {
         position = Math.floor(Math.random() * wordElements.length);
         if (wordElements[position].textContent === "xxx") {
             wordElements[position].textContent = w.second;
+            if (w.secondSound !== undefined) {
+                wordElements[position].dataset.vyslovnost = w.secondSound;
+            }
             wordElements[position].classList.add("c" + index);
             break;
         }
@@ -249,6 +257,12 @@ for (var index = 0; index < pocetSlovNaRozdani; index++) {
 
 function priKliknutiNaWord(event) {
     var word = event.target;
+
+    if (word.dataset.vyslovnost !== undefined) {
+        zvukovyElement.src = word.dataset.vyslovnost;
+        zvukovyElement.play();
+    }
+
     if (krok === 1) {
         word1 = event.target;
         word.classList.add("selectedFirst");
@@ -260,10 +274,8 @@ function priKliknutiNaWord(event) {
         krok = 1;
         var word1Code;
         word1Code = word1.classList[1];
-        console.log(word1Code);
         var word2Code;
         word2Code = word2.classList[1];
-        console.log(word2Code);
 
         if (word1Code === word2Code) {
             word1.classList.remove("selectedFirst");
