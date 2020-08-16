@@ -15,5 +15,9 @@ if (pos1 !== -1) {
 
 var volbyLevelu = document.querySelectorAll(".volbaLevelu");
 for (var i=0; i < volbyLevelu.length; i++) {
-    volbyLevelu[i].href = volbyLevelu[i].href + "&" + parametr1 + lang;
+    if (volbyLevelu[i].href.indexOf("?") >= 0) {
+        volbyLevelu[i].href = volbyLevelu[i].href + "&" + parametr1 + lang;
+    } else {
+        volbyLevelu[i].href = volbyLevelu[i].href + "?" + parametr1 + lang;
+    }
 }
